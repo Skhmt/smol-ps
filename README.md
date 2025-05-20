@@ -9,6 +9,8 @@ let t={};sub=(e,c)=>((t[e]??=new Set).add(c),_=>t[e].delete(c));pub=(e,d)=>t[e]?
 
 you could put it into a module and then call `sub(event, callback)` and `pub(event, data)` from the global/window namespace
 
+you could of course save 4 additional bytes by changing `sub` to `s` and `pub` to `p`, but the convention is to use those names
+
 expanded and explained:
 
 ```js
