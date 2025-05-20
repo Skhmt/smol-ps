@@ -1,0 +1,2 @@
+# smol-ps
+Small pubsub
