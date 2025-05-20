@@ -1,6 +1,6 @@
 # smol-ps
 
-small pubsub, mostly for fun code golfing
+small pubsub, mostly for code golfing
 
 provided only as code snippets in this `readme` because they're just a single line and honestly probably should not be used in production anyway
 
