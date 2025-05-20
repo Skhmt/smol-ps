@@ -44,7 +44,7 @@ export let d={},sub=(e,c)=>((d[e]??=new Set).add(c),_=>d[e].delete(c)),pub=(e,s)
 
 you would put it into a module then `import {sub, pub} from 'ps.js'`
 
-you would *not* import `d`, it's just being exported to save bytes by reusing the existing `let` declaration.
+you would *not* import `d`, it's just being exported to save bytes by reusing the existing `let` declaration
 
 ### others:
 
