@@ -1,5 +1,8 @@
 # smol-ps
-Small pubsub
+
+small pubsub, mostly for fun code golfing
+
+provided as just code snippets in this `readme` because they're just a single line and honestly probably should not be used in production anyway
 
 ## pollutes global/window ns, minified 97 bytes:
 
